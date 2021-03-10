@@ -1,0 +1,18 @@
+.market__filters  {
+    padding: 0 134px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.filter__quotes,
+.filter__time {
+    width: 100px;
+    height: 28px;
+    background: #FFFFFF;
+    border: 1px solid #1599D5;
+    border-radius: 4px;
+    font-size: 12.8px;
+    line-height: 19px;
+}
