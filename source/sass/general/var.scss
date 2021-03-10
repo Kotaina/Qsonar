@@ -1,0 +1,16 @@
+$border-color: #d9d9d9;
+$green: #68b738;
+$grey: #444444;
+$font-ubuntu: "Ubuntu", "Arial", sans-serif;
+$font-arial: "Arial", sans-serif;
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin list-reset {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "krontech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "9.5.x",
+    "browser-sync": "^2.26.14",
+    "browserslist": "^4.11.1",
+    "caniuse-lite": "^1.0.30001038",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "2.6.x",
+    "posthtml-include": "^1.4.3",
+    "stylelint": "10.1.x"
+  }
+}

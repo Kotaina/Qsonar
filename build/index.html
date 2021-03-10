@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="header__title visually-hidden">Header</h2>
+        <section class="header__line line">
+            <div class="line__logo">
+                <a href="#"></a>
+            </div>
+            <input class="line__input" type="text" placeholder="Search ticker, company, profile...">
+            <button>
+                <img src="#" alt="profile-img">
+                John Dickenson
+            </button>
+        </section>
+        <nav class="header__nav navigation">
+            <ul class="navigation">
+                <li class="navigation__item">Home</li>
+                <li class="navigation__item">Screener</li>
+                <li class="navigation__item">Maps</li>
+                <li class="navigation__item">Groups</li>
+                <li class="navigation__item">Portfolio</li>
+                <li class="navigation__item">Insider</li>
+                <li class="navigation__item selected">Future</li>
+                <li class="navigation__item">Forex</li>
+                <li class="navigation__item">Crypto</li>
+                <li class="navigation__item">Advanced</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="market">
+        <h2 class="market__title visually-hidden">Market</h2>
+        <div class="market__filters filter">
+            <select class="filter__quotes" size="1">
+                <option value="1">Quotes</option>
+            </select>
+            <select size="1">
+                <option class="filter__time" value="1">All time</option>
+            </select>
+        </div>
+        <article class="market__incides incide">
+            <h2 class="incide__title">Incides</h2>
+            <div class="incide__block block-item">
+                <h3 class="block-item__name">DJIA</h3>
+                <span class="block-item__price">28141.00</span>
+                <div class="block-item__rate">
+                    <span>H 28219.00</span>
+                    <span>-52.00</span>
+                </div>
+                <div class="block-item__rate2">
+                    <span>L 28095</span>
+                    <span>(-0.18%)</span>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
